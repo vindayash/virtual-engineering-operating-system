@@ -95,7 +95,7 @@ Follow:
 
 handbook/backend/
 
-handbook/frameworks/
+handbook/framework/
 
 Use framework conventions.
 

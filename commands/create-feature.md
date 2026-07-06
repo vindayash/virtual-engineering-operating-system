@@ -117,7 +117,7 @@ Do not introduce architecture changes unless required.
 
 Follow:
 
-handbook/frameworks/
+handbook/framework/
 
 Examples:
 

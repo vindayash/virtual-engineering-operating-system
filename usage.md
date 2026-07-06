@@ -29,6 +29,70 @@ is available as the primary instruction file.
 
 ---
 
+# Slash Commands (Claude Code)
+
+VEOS ships runnable slash commands in `.claude/commands/`.
+
+They turn the VEOS workflows into commands you type directly.
+
+---
+
+## Enabling Commands
+
+Claude Code discovers commands in `<project>/.claude/commands/`.
+
+If VEOS lives at your project root:
+
+Commands work automatically.
+
+If VEOS lives in a subfolder (`./VEOS/`):
+
+Copy or symlink the commands into your project:
+
+```bash
+mkdir -p .claude/commands
+cp VEOS/.claude/commands/veos-*.md .claude/commands/
+```
+
+Then restart Claude Code so the commands load.
+
+---
+
+## Available Commands
+
+* `/veos-analyze` — analyze an existing repo before changing it
+* `/veos-feature` — build a feature (understand, plan, implement, verify)
+* `/veos-fix` — debug and fix a bug safely
+* `/veos-review` — impact-based code review
+* `/veos-refactor` — refactor while preserving behavior
+* `/veos-security` — security review
+* `/veos-optimize` — performance work, measured first
+* `/veos-docs` — generate useful documentation
+* `/veos-deps` — dependency safety and health check
+* `/veos-quality` — format, lint, type, test, security pass
+
+---
+
+## Command Usage
+
+Pass context after the command.
+
+Examples:
+
+```text
+/veos-analyze
+/veos-feature add password reset via email token
+/veos-fix 500 on POST /orders when cart is empty
+/veos-security the new /admin endpoints
+/veos-deps
+```
+
+Each command loads the relevant VEOS handbook and workflow files, then applies them to your input.
+
+The `veos-` prefix avoids clashing with Claude Code built-ins like `/review` and `/security-review`.
+
+---
+
 # Recommended Workflow
 
 For every project:

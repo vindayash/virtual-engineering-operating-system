@@ -109,7 +109,7 @@ Identify framework.
 
 Apply relevant rules:
 
-handbook/frameworks/
+handbook/framework/
 
 Examples:
 

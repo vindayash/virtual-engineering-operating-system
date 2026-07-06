@@ -29,7 +29,7 @@ templates/fastapi-template.md
 
 handbook/backend/
 
-handbook/frameworks/
+handbook/framework/
 
 handbook/security/
 

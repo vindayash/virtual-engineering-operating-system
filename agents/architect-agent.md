@@ -150,7 +150,7 @@ Respect:
 
 Follow:
 
-handbook/frameworks/
+handbook/framework/
 
 Use framework conventions.
 

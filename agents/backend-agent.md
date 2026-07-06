@@ -97,7 +97,7 @@ Follow:
 
 handbook/backend/
 
-handbook/frameworks/
+handbook/framework/
 
 Respect existing project organization.
 

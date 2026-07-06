@@ -27,7 +27,7 @@ Follow:
 
 templates/django-template.md
 
-handbook/frameworks/
+handbook/framework/
 
 handbook/backend/
 
