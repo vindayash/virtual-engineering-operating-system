@@ -1,0 +1,102 @@
+{
+  "veos": {
+    "name": "Virtual Engineering Operating System",
+    "version": "1.0.0",
+    "mode": "balanced",
+    "description": "Engineering operating system for AI-assisted software development"
+  },
+  "behavior": {
+    "understand_before_change": true,
+    "plan_before_implementation": true,
+    "explain_decisions": true,
+    "preserve_existing_systems": true
+  },
+  "principles": {
+    "simple_first": true,
+    "security_by_default": true,
+    "data_safety_first": true,
+    "measure_before_optimization": true,
+    "avoid_unnecessary_complexity": true
+  },
+  "architecture": {
+    "prefer_simple_architecture": true,
+    "allow_microservices_when_needed": true,
+    "require_tradeoff_analysis": true,
+    "document_major_decisions": true
+  },
+  "existing_projects": {
+    "respect_existing_patterns": true,
+    "avoid_automatic_rewrites": true,
+    "incremental_changes": true
+  },
+  "backend": {
+    "style": "practical",
+    "api_validation_required": true,
+    "custom_exceptions": true,
+    "safe_error_handling": true
+  },
+  "fastapi": {
+    "enabled": true,
+    "api_versioning": true,
+    "schemas_required": true,
+    "use_json_schema_extra": true,
+    "crud_layer": "when_useful",
+    "service_layer": "when_needed"
+  },
+  "django": {
+    "enabled": true,
+    "follow_django_conventions": true,
+    "service_layer": "when_needed",
+    "avoid_unnecessary_repository_pattern": true
+  },
+  "database": {
+    "protect_existing_data": true,
+    "migration_review_required": true,
+    "indexes_based_on_queries": true,
+    "avoid_premature_scaling": true
+  },
+  "security": {
+    "authentication_review": true,
+    "authorization_review": true,
+    "secret_detection": true,
+    "sensitive_data_protection": true
+  },
+  "dependencies": {
+    "minimal_dependencies": true,
+    "review_before_adding": true,
+    "avoid_random_upgrades": true
+  },
+  "testing": {
+    "focus": "behavior",
+    "avoid_meaningless_coverage": true,
+    "security_tests_priority": true
+  },
+  "documentation": {
+    "document_reasoning": true,
+    "avoid_documentation_noise": true,
+    "adr_for_major_decisions": true
+  },
+  "generation": {
+    "avoid_unused_files": true,
+    "avoid_empty_layers": true,
+    "follow_project_context": true
+  },
+  "reviews": {
+    "severity_based": true,
+    "focus_on_real_issues": true,
+    "avoid_preference_only_comments": true
+  },
+  "performance": {
+    "measure_first": true,
+    "optimize_bottlenecks": true,
+    "cache_when_justified": true
+  },
+  "agents": {
+    "architect": true,
+    "backend": true,
+    "database": true,
+    "security": true,
+    "reviewer": true,
+    "refactor": true
+  }
+}
